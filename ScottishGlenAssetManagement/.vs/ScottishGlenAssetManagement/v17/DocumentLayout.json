@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|d:\\github\\cmp307portfolio\\scottishglenassetmanagement\\scottishglenassetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA11443A-3E5A-4101-B9F7-46B9C43B55FB}|ScottishGlenAssetManagement\\ScottishGlenAssetManagement.csproj|solutionrelative:scottishglenassetmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\Form1.cs",
-              "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\Form1.cs",
-              "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\Form1.cs [Design]",
-              "RelativeToolTip": "ScottishGlenAssetManagement\\Form1.cs [Design]",
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\SignUp.cs",
+              "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\SignUp.cs",
+              "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\SignUp.cs",
+              "RelativeToolTip": "ScottishGlenAssetManagement\\SignUp.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:41:14.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUp.cs [Design]",
+              "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\SignUp.cs",
+              "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\SignUp.cs",
+              "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\SignUp.cs [Design]",
+              "RelativeToolTip": "ScottishGlenAssetManagement\\SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T20:15:23.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WelcomeScreen.cs",
+              "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "RelativeToolTip": "ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T19:57:04.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomeScreen.cs [Design]",
+              "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\WelcomeScreen.cs",
+              "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\WelcomeScreen.cs [Design]",
+              "RelativeToolTip": "ScottishGlenAssetManagement\\WelcomeScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T18:54:52.337Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\Program.cs",
               "RelativeDocumentMoniker": "ScottishGlenAssetManagement\\Program.cs",
               "ToolTip": "D:\\github\\CMP307Portfolio\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\Program.cs",
               "RelativeToolTip": "ScottishGlenAssetManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T18:28:50.23Z",
               "EditorCaption": ""
