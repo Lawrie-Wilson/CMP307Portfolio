@@ -1,4 +1,5 @@
-﻿namespace ScottishGlenAssetManagement
+﻿
+namespace ScottishGlenAssetManagement
 {
     partial class LogIn
     {
@@ -20,6 +21,11 @@
             base.Dispose(disposing);
         }
 
+        private Button GetLogInButton()
+        {
+            return LogInButton;
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -28,26 +34,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            EMailInput = new TextBox();
+            PasswordInput = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            button1 = new Button();
+            LogInButton = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // EMailInput
             // 
-            textBox1.Location = new Point(12, 184);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 0;
+            EMailInput.Location = new Point(12, 184);
+            EMailInput.Name = "EMailInput";
+            EMailInput.Size = new Size(100, 23);
+            EMailInput.TabIndex = 0;
             // 
-            // textBox2
+            // PasswordInput
             // 
-            textBox2.Location = new Point(12, 297);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
+            PasswordInput.Location = new Point(12, 297);
+            PasswordInput.Name = "PasswordInput";
+            PasswordInput.Size = new Size(100, 23);
+            PasswordInput.TabIndex = 1;
             // 
             // label2
             // 
@@ -67,38 +73,40 @@
             label3.TabIndex = 4;
             label3.Text = "Password:";
             // 
-            // button1
+            // LogInButton
             // 
-            button1.Location = new Point(353, 363);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
-            button1.Text = "Log In ->";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            LogInButton.Location = new Point(353, 363);
+            LogInButton.Name = "LogInButton";
+            LogInButton.Size = new Size(75, 23);
+            LogInButton.TabIndex = 5;
+            LogInButton.Text = "Log In ->";
+            LogInButton.UseVisualStyleBackColor = true;
+            LogInButton.Click += LogInButton_Click_1;
             // 
             // LogIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(LogInButton);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(PasswordInput);
+            Controls.Add(EMailInput);
             Name = "LogIn";
             Text = "LogIn";
             ResumeLayout(false);
             PerformLayout();
         }
 
+
+
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox EMailInput;
+        private TextBox PasswordInput;
         private Label label2;
         private Label label3;
-        private Button button1;
+        private Button LogInButton;
     }
 }

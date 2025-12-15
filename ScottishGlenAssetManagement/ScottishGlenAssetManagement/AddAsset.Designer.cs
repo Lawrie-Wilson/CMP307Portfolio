@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            SystemNameInput = new TextBox();
+            ManufacturerInput = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox3 = new TextBox();
+            ModelInput = new TextBox();
             label4 = new Label();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
+            DeviceTypeInput = new TextBox();
+            IPAddressInput = new TextBox();
             label5 = new Label();
             label6 = new Label();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
+            PurchaseDateInput = new TextBox();
+            NotesInput = new TextBox();
             label8 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -53,19 +54,19 @@
             label1.TabIndex = 0;
             label1.Text = "System Name:";
             // 
-            // textBox1
+            // SystemNameInput
             // 
-            textBox1.Location = new Point(12, 54);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            SystemNameInput.Location = new Point(12, 54);
+            SystemNameInput.Name = "SystemNameInput";
+            SystemNameInput.Size = new Size(100, 23);
+            SystemNameInput.TabIndex = 1;
             // 
-            // textBox2
+            // ManufacturerInput
             // 
-            textBox2.Location = new Point(12, 119);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            ManufacturerInput.Location = new Point(12, 119);
+            ManufacturerInput.Name = "ManufacturerInput";
+            ManufacturerInput.Size = new Size(100, 23);
+            ManufacturerInput.TabIndex = 2;
             // 
             // label2
             // 
@@ -85,44 +86,44 @@
             label3.TabIndex = 4;
             label3.Text = "Model:";
             // 
-            // textBox3
+            // ModelInput
             // 
-            textBox3.Location = new Point(12, 179);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 5;
+            ModelInput.Location = new Point(12, 179);
+            ModelInput.Name = "ModelInput";
+            ModelInput.Size = new Size(100, 23);
+            ModelInput.TabIndex = 5;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(12, 224);
             label4.Name = "label4";
-            label4.Size = new Size(66, 15);
+            label4.Size = new Size(72, 15);
             label4.TabIndex = 6;
-            label4.Text = "DeviceType";
+            label4.Text = "Device Type:";
             // 
-            // textBox4
+            // DeviceTypeInput
             // 
-            textBox4.Location = new Point(12, 242);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 7;
+            DeviceTypeInput.Location = new Point(12, 242);
+            DeviceTypeInput.Name = "DeviceTypeInput";
+            DeviceTypeInput.Size = new Size(100, 23);
+            DeviceTypeInput.TabIndex = 7;
             // 
-            // textBox5
+            // IPAddressInput
             // 
-            textBox5.Location = new Point(12, 310);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 8;
+            IPAddressInput.Location = new Point(12, 310);
+            IPAddressInput.Name = "IPAddressInput";
+            IPAddressInput.Size = new Size(100, 23);
+            IPAddressInput.TabIndex = 8;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(11, 292);
             label5.Name = "label5";
-            label5.Size = new Size(62, 15);
+            label5.Size = new Size(65, 15);
             label5.TabIndex = 9;
-            label5.Text = "IP Address";
+            label5.Text = "IP Address:";
             // 
             // label6
             // 
@@ -133,22 +134,22 @@
             label6.TabIndex = 10;
             label6.Text = "Purchase Date: (DD/MM/YYYY)";
             // 
-            // textBox6
+            // PurchaseDateInput
             // 
-            textBox6.Location = new Point(12, 382);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 11;
+            PurchaseDateInput.Location = new Point(12, 382);
+            PurchaseDateInput.Name = "PurchaseDateInput";
+            PurchaseDateInput.Size = new Size(100, 23);
+            PurchaseDateInput.TabIndex = 11;
             // 
-            // textBox7
+            // NotesInput
             // 
-            textBox7.AcceptsReturn = true;
-            textBox7.Location = new Point(12, 466);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(300, 120);
-            textBox7.TabIndex = 12;
-            textBox7.Text = "\r\n\r\n";
+            NotesInput.AcceptsReturn = true;
+            NotesInput.Location = new Point(12, 466);
+            NotesInput.Multiline = true;
+            NotesInput.Name = "NotesInput";
+            NotesInput.Size = new Size(300, 120);
+            NotesInput.TabIndex = 12;
+            NotesInput.Text = "\r\n\r\n";
             // 
             // label8
             // 
@@ -159,24 +160,35 @@
             label8.TabIndex = 14;
             label8.Text = "Additional Notes:";
             // 
+            // button1
+            // 
+            button1.Location = new Point(307, 636);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 15;
+            button1.Text = "Add Asset";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // AddAsset
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 761);
+            Controls.Add(button1);
             Controls.Add(label8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
+            Controls.Add(NotesInput);
+            Controls.Add(PurchaseDateInput);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
+            Controls.Add(IPAddressInput);
+            Controls.Add(DeviceTypeInput);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(ModelInput);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(ManufacturerInput);
+            Controls.Add(SystemNameInput);
             Controls.Add(label1);
             Name = "AddAsset";
             Text = "AddAsset";
@@ -187,18 +199,19 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox SystemNameInput;
+        private TextBox ManufacturerInput;
         private Label label2;
         private Label label3;
-        private TextBox textBox3;
+        private TextBox ModelInput;
         private Label label4;
-        private TextBox textBox4;
-        private TextBox textBox5;
+        private TextBox DeviceTypeInput;
+        private TextBox IPAddressInput;
         private Label label5;
         private Label label6;
-        private TextBox textBox6;
-        private TextBox textBox7;
+        private TextBox PurchaseDateInput;
+        private TextBox NotesInput;
         private Label label8;
+        private Button button1;
     }
 }

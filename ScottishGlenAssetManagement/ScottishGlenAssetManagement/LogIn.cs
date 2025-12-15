@@ -10,15 +10,26 @@ using System.Windows.Forms;
 
 namespace ScottishGlenAssetManagement
 {
+
     public partial class LogIn : Form
     {
+
         public LogIn()
         {
-            InitializeComponent();
+            InitializeComponent(GetLogInButton());
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LogInbutton_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void LogInButton_Click_1(object sender, EventArgs e)
+        {
+            string EMail = EMailInput.Text;
+            string password = PasswordInput.Text;
+
             SelectionScreen f2 = new SelectionScreen();
             f2.Show();
             this.Hide();

@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             SubmitSignUp = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            FirstNameInput = new TextBox();
+            LastNameInput = new TextBox();
+            EMailInput = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            comboBox1 = new ComboBox();
-            textBox4 = new TextBox();
+            DepartmentInput = new ComboBox();
+            PasswordInput = new TextBox();
             label5 = new Label();
             SuspendLayout();
             // 
@@ -51,26 +51,26 @@
             SubmitSignUp.UseVisualStyleBackColor = true;
             SubmitSignUp.Click += SubmitSignUp_Click;
             // 
-            // textBox1
+            // FirstNameInput
             // 
-            textBox1.Location = new Point(13, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            FirstNameInput.Location = new Point(13, 77);
+            FirstNameInput.Name = "FirstNameInput";
+            FirstNameInput.Size = new Size(100, 23);
+            FirstNameInput.TabIndex = 1;
             // 
-            // textBox2
+            // LastNameInput
             // 
-            textBox2.Location = new Point(13, 176);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 2;
+            LastNameInput.Location = new Point(13, 176);
+            LastNameInput.Name = "LastNameInput";
+            LastNameInput.Size = new Size(100, 23);
+            LastNameInput.TabIndex = 2;
             // 
-            // textBox3
+            // EMailInput
             // 
-            textBox3.Location = new Point(12, 274);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 3;
+            EMailInput.Location = new Point(12, 274);
+            EMailInput.Name = "EMailInput";
+            EMailInput.Size = new Size(100, 23);
+            EMailInput.TabIndex = 3;
             // 
             // label1
             // 
@@ -109,22 +109,22 @@
             label4.TabIndex = 7;
             label4.Text = "Department:";
             // 
-            // comboBox1
+            // DepartmentInput
             // 
-            comboBox1.AllowDrop = true;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Finance", "Human Resources", "Operations", "Sales", "Information Technology" });
-            comboBox1.Location = new Point(12, 435);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 8;
+            DepartmentInput.AllowDrop = true;
+            DepartmentInput.FormattingEnabled = true;
+            DepartmentInput.Items.AddRange(new object[] { "Finance", "Human Resources", "Operations", "Sales", "Information Technology" });
+            DepartmentInput.Location = new Point(12, 435);
+            DepartmentInput.Name = "DepartmentInput";
+            DepartmentInput.Size = new Size(121, 23);
+            DepartmentInput.TabIndex = 8;
             // 
-            // textBox4
+            // PasswordInput
             // 
-            textBox4.Location = new Point(12, 350);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 9;
+            PasswordInput.Location = new Point(12, 350);
+            PasswordInput.Name = "PasswordInput";
+            PasswordInput.Size = new Size(100, 23);
+            PasswordInput.TabIndex = 9;
             // 
             // label5
             // 
@@ -141,15 +141,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(581, 561);
             Controls.Add(label5);
-            Controls.Add(textBox4);
-            Controls.Add(comboBox1);
+            Controls.Add(PasswordInput);
+            Controls.Add(DepartmentInput);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(EMailInput);
+            Controls.Add(LastNameInput);
+            Controls.Add(FirstNameInput);
             Controls.Add(SubmitSignUp);
             Name = "SignUp";
             Text = "SignUp";
@@ -161,15 +161,15 @@
         #endregion
 
         private Button SubmitSignUp;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox FirstNameInput;
+        private TextBox LastNameInput;
+        private TextBox EMailInput;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
-        private ComboBox comboBox1;
-        private TextBox textBox4;
+        private ComboBox DepartmentInput;
+        private TextBox PasswordInput;
         private Label label5;
     }
 }

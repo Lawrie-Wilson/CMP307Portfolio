@@ -25,6 +25,12 @@ namespace ScottishGlenAssetManagement
 
         private void SubmitSignUp_Click(object sender, EventArgs e)
         {
+            string FirstName = FirstNameInput.Text;
+            string LastName = LastNameInput.Text;
+            string EMail = EMailInput.Text;
+            string Password = PasswordInput.Text;
+            string Department = DepartmentInput.Text;
+
             try
             {
                 SqlConnection conn;

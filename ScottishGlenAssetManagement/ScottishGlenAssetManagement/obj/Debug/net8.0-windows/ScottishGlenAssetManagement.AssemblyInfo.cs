@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScottishGlenAssetManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90f2a3edc00a0ea386f9d285c5040bbae5ff8d46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16d506f78eef07f2cd76d30d6fd695bb87669a04")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScottishGlenAssetManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScottishGlenAssetManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

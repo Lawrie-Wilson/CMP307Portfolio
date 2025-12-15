@@ -16,5 +16,17 @@ namespace ScottishGlenAssetManagement
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string SystemName = SystemNameInput.Text;
+            string Manufacturer = ManufacturerInput.Text;
+            string Model = ModelInput.Text;
+            string DeviceType = DeviceTypeInput.Text;
+            string IPAddress = IPAddressInput.Text;
+            string PurchaseDate= PurchaseDateInput.Text;
+            string Notes = NotesInput.Text;
+
+        }
     }
 }
