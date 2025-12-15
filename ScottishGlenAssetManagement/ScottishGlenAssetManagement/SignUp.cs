@@ -20,7 +20,7 @@ namespace ScottishGlenAssetManagement
 
         private void SignUp_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void SubmitSignUp_Click(object sender, EventArgs e)
@@ -35,11 +35,22 @@ namespace ScottishGlenAssetManagement
                 conn.Open();
 
                 conn.Close();
+                Console.WriteLine("Connection Established Successfully");
+
+                SelectionScreen f2 = new SelectionScreen();
+                f2.Show();
+                this.Hide();
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

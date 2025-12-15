@@ -38,7 +38,7 @@ namespace ScottishGlenAssetManagement
             SignUpButton.TabIndex = 1;
             SignUpButton.Text = "Sign Up";
             SignUpButton.UseVisualStyleBackColor = true;
-            SignUpButton.Click += this.SignUpButton_Click;
+            SignUpButton.Click += SignUpButton_Click;
             // 
             // LogInButton
             // 
@@ -48,6 +48,7 @@ namespace ScottishGlenAssetManagement
             LogInButton.TabIndex = 2;
             LogInButton.Text = "Log In";
             LogInButton.UseVisualStyleBackColor = true;
+            LogInButton.Click += LogInButton_Click;
             // 
             // label2
             // 
@@ -81,6 +82,13 @@ namespace ScottishGlenAssetManagement
             f2.Show();
             this.Hide();
 
+        }
+
+        private void LogInButton_Click(object sender, EventArgs e)
+        {
+            LogIn f2 = new LogIn();
+            f2.Show();
+            this.Hide();
         }
     }
 }
