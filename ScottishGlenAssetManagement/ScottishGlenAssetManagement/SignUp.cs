@@ -45,6 +45,10 @@ namespace ScottishGlenAssetManagement
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+
+                SelectionScreen f2 = new SelectionScreen();
+                f2.Show();
+                this.Hide();
             }
         }
 

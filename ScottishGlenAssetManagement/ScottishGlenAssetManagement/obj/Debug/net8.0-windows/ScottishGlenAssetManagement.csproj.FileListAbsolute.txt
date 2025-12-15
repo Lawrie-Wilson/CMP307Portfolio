@@ -50,3 +50,9 @@ D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManag
 D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.pdb
 D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.genruntimeconfig.cache
 D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ref\ScottishGlenAssetManagement.dll
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.AddAsset.resources
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.DeleteAsset.resources
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.EditAsset.resources
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.LogIn.resources
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.SelectionScreen.resources
+D:\git\CMP307\CMP307Portfolio\ScottishGlenAssetManagement\ScottishGlenAssetManagement\obj\Debug\net8.0-windows\ScottishGlenAssetManagement.ViewAsset.resources

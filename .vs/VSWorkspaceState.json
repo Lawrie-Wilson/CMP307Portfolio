@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ScottishGlenAssetManagement"
+    "\\ScottishGlenAssetManagement",
+    "\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement"
   ],
-  "SelectedNode": "\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement.sln",
+  "SelectedNode": "\\ScottishGlenAssetManagement\\ScottishGlenAssetManagement\\SignUp.cs",
   "PreviewInSolutionExplorer": false
 }
